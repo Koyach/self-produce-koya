@@ -1,0 +1,24 @@
+{
+  "HomePage": {
+    "title": "Welcome",
+    "description": "This is the home page."
+  },
+  "Header": {
+    "about": "About",
+    "activities": "Activities",
+    "skills": "Skills",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "HomePageSections": {
+    "getInTouch": "Get in Touch",
+    "aboutMe": "About Me",
+    "skills": "Skills",
+    "activitiesProjects": "Activities & Projects",
+    "learnMore": "Learn More"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Switch to {locale, select, ja {Japanese} en {English} other {Unknown}}"
+  }
+}
