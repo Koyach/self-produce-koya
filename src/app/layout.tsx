@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 // Update metadata for Japanese site
 export const metadata: Metadata = {
-  title: "谷口 皓哉 ポートフォリオ", // Example Japanese title
-  description: "谷口皓哉の活動実績やスキルを紹介するウェブサイトです。", // Example Japanese description
+  title: "谷昊埜 ポートフォリオ", // Example Japanese title
+  description: "谷昊埜の活動実績やスキルを紹介するウェブサイトです。", // Example Japanese description
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: ReactNode; // Use ReactNode type
 }>) {
   return (
-    <html lang="ja"> {/* Set lang to ja */}
+    <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* Integrate Header and Footer from LocaleLayout */}
         <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100">

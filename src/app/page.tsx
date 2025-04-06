@@ -3,7 +3,7 @@ import Image from "next/image"; // Keep Image import if needed for profile pictu
 export default function Home() {
   // TODO: Fetch actual profile data from Contentful later
   const profile = {
-    name: "Koya Taniguchi", // Replace with dynamic data
+    name: "Koya Tani", // Replace with dynamic data
     tagline: "慶應義塾大学SFC | AIアプリ開発者 | アルペンスキー選手", // Replace
     bio: "ここにあなたの経歴、興味、目標などを詳しく書いてください。どのような人物で、何に情熱を持っているのかを伝えましょう。", // Replace
     skills: ["TypeScript", "React", "Next.js", "Python"], // Replace

@@ -17,7 +17,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo/Brand Name */}
         <Link href="/" className="text-xl font-semibold text-gray-800 dark:text-white">
-          谷口 皓哉 {/* TODO: Replace with actual name/logo if different */}
+          谷　昊埜 {/* TODO: Replace with actual name/logo if different */}
         </Link>
 
         {/* Desktop Navigation */}
