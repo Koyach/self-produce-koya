@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 // Component for skill rating visualization
 const SkillRating = ({ level }: { level: number }) => {
   return (

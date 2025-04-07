@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import miracoe from '../../assets/svg/miracoe-photos.svg';
+
 
 // Project card component
 const ProjectCard = ({ 
@@ -69,7 +70,7 @@ export default function ProjectsPage() {
           <ProjectCard 
             title="ミラコエ（ミライを創るコエ）" 
             description="若者の政治参加を促進するために設立した学生団体です。" 
-            imageUrl="/api/placeholder/400/200"
+            imageUrl={miracoe}
           >
             <div className="space-y-4">
               <div>
@@ -160,7 +161,7 @@ export default function ProjectsPage() {
         </section>
 
         {/* Surname Lawsuit Project */}
-        <section>
+        {/* <section>
           <ProjectCard 
             title="選択的夫婦別姓訴訟関連活動" 
             description="社会の不公平に声を上げることの重要性を学んだ経験です。" 
@@ -183,7 +184,7 @@ export default function ProjectsPage() {
               </div>
             </div>
           </ProjectCard>
-        </section>
+        </section> */}
 
         {/* AI Garbage Sorting App Project */}
         <section>

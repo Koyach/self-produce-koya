@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
-
 // Blog post card component
 const BlogPostCard = ({ 
   title, 

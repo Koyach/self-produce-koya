@@ -1,8 +1,9 @@
 'use client';
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import myface from "../assets/svg/myface.svg";
+import Image from "next/image";
 
 export default function Home() {
   // Refs for animation elements
@@ -132,15 +133,14 @@ export default function Home() {
           {/* Profile image or placeholder */}
           <div className="relative h-64 md:h-96 order-1 md:order-2 flex items-center justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 dark:from-blue-600 dark:to-cyan-500 shadow-xl flex items-center justify-center overflow-hidden">
-              {/* Replace with actual image when available */}
-              <div className="text-white text-6xl font-bold">谷</div>
-              {/* <Image 
-                src="/profile.jpg" 
+              {/* Profile image */}
+              <Image 
+                src={myface} 
                 alt="谷 昊埜" 
                 width={320} 
                 height={320} 
                 className="object-cover"
-              /> */}
+              />
             </div>
             
             {/* Achievement badges */}
@@ -166,7 +166,6 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white inline-block relative">
               自己紹介
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500 transform -translate-y-2"></span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">若者の政治参加を促進する学生起業家</p>
           </div>
@@ -212,7 +211,6 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white inline-block relative">
               スキル
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500 transform -translate-y-2"></span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">リーダーシップからスキーまで多様なスキルセット</p>
           </div>
@@ -254,7 +252,6 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white inline-block relative">
               プロジェクト
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500 transform -translate-y-2"></span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">社会課題の解決に取り組む主要プロジェクト</p>
           </div>
