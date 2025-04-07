@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "谷昊埜 ポートフォリオ", // Example Japanese title
   description: "谷昊埜の活動実績やスキルを紹介するウェブサイトです。", // Example Japanese description
+  verification: {
+    google: "15g_iO_a7-2JAksP1jA-1DkhFHRJen4rQq9LMtG_xAg",
+  },
 };
 
 export default function RootLayout({
